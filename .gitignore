@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Runtime plots (готовые скриншоты лежат в images/)
+result_*.png
+harmonics.png
+harmonics_*.png
+
+# Local / personal
+*.docx
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
